@@ -1,6 +1,5 @@
 import './App.css';
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
 import CardUser from "./CardUser"
 
 function Users(props) {

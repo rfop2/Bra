@@ -46,7 +46,7 @@ function App() {
     users.map((user) => {
       return user.name === str ? achou = user : "";
     })
-      if(achou != " "){
+      if(achou !== " "){
         fetch(`https://gorest.co.in/public-api/users/${achou.id}` ,{
         method: 'GET',
         headers: {
